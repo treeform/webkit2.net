@@ -1,0 +1,17 @@
+C:\OpenWebKitSharp\JavaScriptExample\bin\Release_NET2\JavaScriptExample.exe.config
+C:\OpenWebKitSharp\JavaScriptExample\bin\Release_NET2\JavaScriptExample.exe
+C:\OpenWebKitSharp\JavaScriptExample\bin\Release_NET2\JavaScriptExample.pdb
+C:\OpenWebKitSharp\JavaScriptExample\bin\Release_NET2\JSCore.dll
+C:\OpenWebKitSharp\JavaScriptExample\bin\Release_NET2\OpenWebKitSharp.dll
+C:\OpenWebKitSharp\JavaScriptExample\obj\Release_NET2\JavaScriptExample.csprojResolveAssemblyReference.cache
+C:\OpenWebKitSharp\JavaScriptExample\obj\Release_NET2\JavaScriptExample.Form1.resources
+C:\OpenWebKitSharp\JavaScriptExample\obj\Release_NET2\JavaScriptExample.Properties.Resources.resources
+C:\OpenWebKitSharp\JavaScriptExample\obj\Release_NET2\JavaScriptExample.csproj.GenerateResource.Cache
+C:\OpenWebKitSharp\JavaScriptExample\obj\Release_NET2\JavaScriptExample.exe
+C:\OpenWebKitSharp\JavaScriptExample\obj\Release_NET2\JavaScriptExample.pdb
+C:\OpenWebKitSharp\Build NET2\JavaScriptExample.exe.config
+C:\OpenWebKitSharp\Build NET2\JavaScriptExample.exe
+C:\OpenWebKitSharp\Build NET2\JavaScriptExample.pdb
+C:\Build_NET2\JavaScriptExample.exe.config
+C:\Build_NET2\JavaScriptExample.exe
+C:\Build_NET2\JavaScriptExample.pdb

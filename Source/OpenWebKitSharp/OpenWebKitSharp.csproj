@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>..\..\build\</OutputPath>
+    <Prefer32Bit>false</Prefer32Bit>
+    <DefineConstants>RELEASE</DefineConstants>
+    <DebugType>none</DebugType>
+    <WarningLevel>4</WarningLevel>
+    <Optimize>false</Optimize>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="JSCore, Version=1.0.1.2, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\build\JSCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\..\References\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="MyDownloader.App">
+      <HintPath>..\..\References\MyDownloader.App.dll</HintPath>
+    </Reference>
+    <Reference Include="MyDownloader.Core">
+      <HintPath>..\..\References\MyDownloader.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="MyDownloader.Extension">
+      <HintPath>..\..\References\MyDownloader.Extension.dll</HintPath>
+    </Reference>
+    <Reference Include="MyDownloader.Spider">
+      <HintPath>..\..\References\MyDownloader.Spider.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="TabStrip">
+      <HintPath>..\..\References\TabStrip.dll</HintPath>
+    </Reference>
+    <Reference Include="WebKit.Interop, Version=536.0.0.0, Culture=neutral, PublicKeyToken=22198f6602307c03, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <HintPath>..\..\References\WebKit.Interop.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActivationContext.cs" />
+    <Compile Include="AppearanceSettings.cs" />
+    <Compile Include="ContextMenuManager.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CustomUndoSystem.cs" />
+    <Compile Include="DOMListener.cs" />
+    <Compile Include="Downloader\App.cs" />
+    <Compile Include="Downloader\Controls\Block.cs" />
+    <Compile Include="Downloader\Controls\BlockedProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Downloader\Controls\BlockedProgressBar.designer.cs">
+      <DependentUpon>BlockedProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Downloader\Controls\BlockList.cs" />
+    <Compile Include="Downloader\Controls\CheckableTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Downloader\SingleInstancing\ISingleInstanceEnforcer.cs" />
+    <Compile Include="Downloader\SingleInstancing\MessageEventArgs.cs" />
+    <Compile Include="Downloader\SingleInstancing\SingleInstanceException.cs" />
+    <Compile Include="Downloader\SingleInstancing\SingleInstanceProxy.cs" />
+    <Compile Include="Downloader\SingleInstancing\SingleInstanceTracker.cs" />
+    <Compile Include="Downloader\UI\NewDownloadDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Downloader\UI\NewDownloadDialog.designer.cs">
+      <DependentUpon>NewDownloadDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Downloader\UI\DownloadList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Downloader\UI\DownloadList.designer.cs">
+      <DependentUpon>DownloadList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Downloader\UI\FileTypeImageList.cs" />
+    <Compile Include="Downloader\UI\IconReader.cs" />
+    <Compile Include="Downloader\UI\MainDownloadForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Downloader\UI\MainDownloadForm.designer.cs">
+      <DependentUpon>MainDownloadForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Downloader\UI\NewDownloadForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Downloader\UI\NewDownloadForm.designer.cs">
+      <DependentUpon>NewDownloadForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalPreferences.cs" />
+    <Compile Include="Header.cs" />
+    <Compile Include="JSManagement.cs" />
+    <Compile Include="LanguageLoader.cs" />
+    <Compile Include="Linux %28GTK%29\GtkWrapperNoThread.cs" />
+    <Compile Include="Linux %28GTK%29\X11.cs" />
+    <Compile Include="NativeMethods.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="ReourcesIntercepter.cs" />
+    <Compile Include="Source Code Control\AutocompleteItem.cs" />
+    <Compile Include="Source Code Control\AutocompleteMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Source Code Control\Char.cs" />
+    <Compile Include="Source Code Control\CommandManager.cs" />
+    <Compile Include="Source Code Control\Commands.cs" />
+    <Compile Include="Source Code Control\Export.cs" />
+    <Compile Include="Source Code Control\FastColoredTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Source Code Control\FindForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Source Code Control\FindForm.designer.cs">
+      <DependentUpon>FindForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Source Code Control\LimitedStack.cs" />
+    <Compile Include="Source Code Control\Line.cs" />
+    <Compile Include="Source Code Control\Place.cs" />
+    <Compile Include="Source Code Control\Range.cs" />
+    <Compile Include="Source Code Control\ReplaceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Source Code Control\ReplaceForm.designer.cs">
+      <DependentUpon>ReplaceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Source Code Control\Style.cs" />
+    <Compile Include="Source Code Control\SyntaxDescriptor.cs" />
+    <Compile Include="Source Code Control\SyntaxHighlighter.cs" />
+    <Compile Include="Source Code Control\VisualMarker.cs" />
+    <Compile Include="SourceCodeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SourceCodeForm.Designer.cs">
+      <DependentUpon>SourceCodeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebDownloadDelegate.cs" />
+    <Compile Include="WebEditingDelegate.cs" />
+    <Compile Include="WebFormDelegate.cs" />
+    <Compile Include="WebFrameLoadDelegate.cs" />
+    <Compile Include="WebKitBrowser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="WebKitBrowser.designer.cs">
+      <DependentUpon>WebKitBrowser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebKitBrowserEvents.cs" />
+    <Compile Include="WebKitCSSClasses.cs" />
+    <Compile Include="WebKitDOMCoreClasses.cs" />
+    <Compile Include="WebKitDOMHTMLClasses.cs" />
+    <Compile Include="WebKitFormData.cs" />
+    <Compile Include="WebNotificationObserver.cs" />
+    <Compile Include="WebPolicyDelegate.cs" />
+    <Compile Include="WebResourceLoadDelegate.cs" />
+    <Compile Include="WebUIDelegate.cs" />
+    <Compile Include="Linux %28GTK%29\GTKApp.cs" />
+    <Compile Include="Linux %28GTK%29\LinuxWebKitBrowser.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Downloader\UI\NewDownloadDialog.resx">
+      <DependentUpon>NewDownloadDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Downloader\UI\DownloadList.resx">
+      <DependentUpon>DownloadList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Downloader\UI\MainDownloadForm.resx">
+      <DependentUpon>MainDownloadForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Downloader\UI\NewDownloadForm.resx">
+      <DependentUpon>NewDownloadForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source Code Control\FastColoredTextBox.resx">
+      <DependentUpon>FastColoredTextBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source Code Control\FindForm.resx">
+      <DependentUpon>FindForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Source Code Control\ReplaceForm.resx">
+      <DependentUpon>ReplaceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SourceCodeForm.resx">
+      <DependentUpon>SourceCodeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebKitBrowser.resx">
+      <DependentUpon>WebKitBrowser.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\How to use.txt" />
+    <None Include="Resources\New document.ico" />
+    <None Include="app.config" />
+    <None Include="How to use.txt" />
+    <Content Include="Important! Please Read!.txt" />
+    <None Include="Properties\Settings.settings">
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="WebKit.NET.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+    <ProjectGuid>{52027BEA-E2A2-4240-BD7D-B51F3964AE66}</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug_Linux|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug_Linux</OutputPath>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>LINUX</DefineConstants>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release_Linux|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release_Linux</OutputPath>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>LINUX</DefineConstants>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

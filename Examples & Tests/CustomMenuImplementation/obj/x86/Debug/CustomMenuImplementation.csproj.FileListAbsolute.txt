@@ -1,0 +1,46 @@
+C:\MyTemp\OpenWebKitSharp\CustomMenuImplementation\bin\Debug\WebKitBrowser.dll.manifest
+C:\MyTemp\OpenWebKitSharp\CustomMenuImplementation\bin\Debug\CustomMenuImplementation.exe
+C:\MyTemp\OpenWebKitSharp\CustomMenuImplementation\bin\Debug\CustomMenuImplementation.pdb
+C:\MyTemp\OpenWebKitSharp\CustomMenuImplementation\bin\Debug\OpenWebKitSharp.dll
+C:\MyTemp\OpenWebKitSharp\CustomMenuImplementation\bin\Debug\WebKit.Interop.dll
+C:\MyTemp\OpenWebKitSharp\CustomMenuImplementation\bin\Debug\WebKit.Interop.Old.dll
+C:\MyTemp\OpenWebKitSharp\CustomMenuImplementation\bin\Debug\OpenWebKitSharp.pdb
+C:\MyTemp\OpenWebKitSharp\CustomMenuImplementation\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\MyTemp\OpenWebKitSharp\CustomMenuImplementation\obj\x86\Debug\CustomMenuImplementation.Form1.resources
+C:\MyTemp\OpenWebKitSharp\CustomMenuImplementation\obj\x86\Debug\CustomMenuImplementation.Properties.Resources.resources
+C:\MyTemp\OpenWebKitSharp\CustomMenuImplementation\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\MyTemp\OpenWebKitSharp\CustomMenuImplementation\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\MyTemp\OpenWebKitSharp\CustomMenuImplementation\obj\x86\Debug\CustomMenuImplementation.exe
+C:\MyTemp\OpenWebKitSharp\CustomMenuImplementation\obj\x86\Debug\CustomMenuImplementation.pdb
+C:\MyTemp\OpenWebKitSharp\OpenWebKitSharp\bin\Debug\CustomMenuImplementation.exe
+C:\MyTemp\OpenWebKitSharp\OpenWebKitSharp\bin\Debug\CustomMenuImplementation.pdb
+C:\MyTemp\1.6\OpenWebKitSharp\OpenWebKitSharp\bin\Debug\CustomMenuImplementation.exe
+C:\MyTemp\1.6\OpenWebKitSharp\CustomMenuImplementation\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\MyTemp\1.6\OpenWebKitSharp\CustomMenuImplementation\obj\x86\Debug\CustomMenuImplementation.Form1.resources
+C:\MyTemp\1.6\OpenWebKitSharp\CustomMenuImplementation\obj\x86\Debug\CustomMenuImplementation.Properties.Resources.resources
+C:\MyTemp\1.6\OpenWebKitSharp\CustomMenuImplementation\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\MyTemp\1.6\OpenWebKitSharp\CustomMenuImplementation\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\MyTemp\1.6\OpenWebKitSharp\CustomMenuImplementation\obj\x86\Debug\CustomMenuImplementation.exe
+C:\MyTemp\1.6\OpenWebKitSharp\CustomMenuImplementation\obj\x86\Debug\CustomMenuImplementation.pdb
+C:\MyTemp\1.6\OpenWebKitSharp\OpenWebKitSharp\bin\Debug\CustomMenuImplementation.pdb
+C:\MyTemp\1.6\OpenWebKitSharp\Examples & Tests\CustomMenuImplementation\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\MyTemp\1.6\OpenWebKitSharp\Examples & Tests\CustomMenuImplementation\obj\x86\Debug\CustomMenuImplementation.Form1.resources
+C:\MyTemp\1.6\OpenWebKitSharp\Examples & Tests\CustomMenuImplementation\obj\x86\Debug\CustomMenuImplementation.Properties.Resources.resources
+C:\MyTemp\1.6\OpenWebKitSharp\Examples & Tests\CustomMenuImplementation\obj\x86\Debug\CustomMenuImplementation.exe
+C:\MyTemp\1.6\OpenWebKitSharp\Examples & Tests\CustomMenuImplementation\obj\x86\Debug\CustomMenuImplementation.pdb
+C:\MyTemp\1.6\OpenWebKitSharp\Examples & Tests\WebKit\CustomMenuImplementation.exe
+C:\MyTemp\1.6\OpenWebKitSharp\Examples & Tests\WebKit\CustomMenuImplementation.pdb
+C:\MyTemp\1.6\OpenWebKitSharp\WebKit\CustomMenuImplementation.exe
+C:\MyTemp\1.6\OpenWebKitSharp\WebKit\CustomMenuImplementation.pdb
+C:\OpenWebKitSharp\WebKit\CustomMenuImplementation.exe.config
+C:\OpenWebKitSharp\WebKit\CustomMenuImplementation.exe
+C:\OpenWebKitSharp\WebKit\CustomMenuImplementation.pdb
+C:\OpenWebKitSharp\build\CustomMenuImplementation.exe.config
+C:\OpenWebKitSharp\build\CustomMenuImplementation.exe
+C:\OpenWebKitSharp\build\CustomMenuImplementation.pdb
+C:\OpenWebKitSharp\Examples & Tests\CustomMenuImplementation\obj\x86\Debug\CustomMenuImplementation.csprojResolveAssemblyReference.cache
+C:\OpenWebKitSharp\Examples & Tests\CustomMenuImplementation\obj\x86\Debug\CustomMenuImplementation.Form1.resources
+C:\OpenWebKitSharp\Examples & Tests\CustomMenuImplementation\obj\x86\Debug\CustomMenuImplementation.Properties.Resources.resources
+C:\OpenWebKitSharp\Examples & Tests\CustomMenuImplementation\obj\x86\Debug\CustomMenuImplementation.csproj.GenerateResource.Cache
+C:\OpenWebKitSharp\Examples & Tests\CustomMenuImplementation\obj\x86\Debug\CustomMenuImplementation.exe
+C:\OpenWebKitSharp\Examples & Tests\CustomMenuImplementation\obj\x86\Debug\CustomMenuImplementation.pdb
